@@ -1,5 +1,6 @@
 import webbrowser
 
+
 class Movie():
   """ This class provides a way to store movie related info """
 
@@ -13,5 +14,3 @@ class Movie():
 
   def show_trailer(self):
     webbrowser.open(self.trailer_youtube_url)
-
-
